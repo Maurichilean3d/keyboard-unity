@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Catppuccin Mocha palette -->
+    <color name="bg_dark">#FF1E1E2E</color>
+    <color name="surface">#FF313244</color>
+    <color name="surface_dim">#FF181825</color>
+    <color name="key_normal">#FF45475A</color>
+    <color name="key_pressed">#FF585B70</color>
+    <color name="accent">#FF89B4FA</color>
+    <color name="text_primary">#FFCDD6F4</color>
+    <color name="text_secondary">#FF6C7086</color>
+</resources>

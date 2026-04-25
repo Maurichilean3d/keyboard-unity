@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark">
+
+    <com.keyboardunity.TrackpadView
+        android:id="@+id/trackpadView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/buttonRow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/buttonRow"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="@color/surface"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btnLeftClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Left Click"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/key_normal"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/btnMiddleClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Middle"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/key_normal"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_margin="4dp" />
+
+        <Button
+            android:id="@+id/btnRightClick"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Right Click"
+            android:textColor="@color/text_primary"
+            android:backgroundTint="@color/key_normal"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_margin="4dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
