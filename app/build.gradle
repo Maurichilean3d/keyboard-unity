@@ -6,11 +6,12 @@ plugins {
 android {
     namespace 'com.keyboardunity'
     compileSdk 34
+    buildToolsVersion "34.0.0"
 
     defaultConfig {
         applicationId "com.keyboardunity"
         minSdk 29
-        targetSdk 34
+        targetSdk 33
         versionCode 1
         versionName "1.0"
     }
